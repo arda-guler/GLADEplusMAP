@@ -1,5 +1,7 @@
 # GLADE+MAP
 
+![GLADE+MAP](https://user-images.githubusercontent.com/80536083/217591252-163c6596-a646-4883-9b0c-1922e0f95b87.jpg)
+
 ## About
 Creates a 3D map of galaxies using data from GLADE+ catalog. The catalog from which the galaxy data is fetched is not my work - it is published as [1] and explained in detail at http://glade.elte.hu/.
 
