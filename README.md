@@ -17,12 +17,19 @@ The map origin is marked with the intersection of three lines; red, green and bl
 The right ascension (ra), declination (dec) and luminosity distance (d_L) values were used to compute the cartesian position vectors of galaxies as such:
 
 x = d_L * cos(dec) * cos(ra)
+
 y = d_L * cos(dec) * sin(ra)
+
 z = d_L * sin(dec)
 
 Color of each galaxy shows its mass. The color scale is a linear scale that paints the galaxy with the smallest mass as red, the galaxy with the largest mass as blue. All other galaxies are painted as a linear interpolation between fully blue and fully red, with zero green value in the RGB coloring scheme. The numerical value for maximum and minimum masses are displayed as the map generation is finished.
 
-QWEASD keys control map camera rotation, UIOJKL keys control map camera position. T increases camera movement speed, G decreases it.
+### Controls
+**QWEASD** keys control map camera rotation
+
+**UIOJKL** keys control map camera position
+
+**T** increases camera movement speed, **G** decreases it.
 
 ## IMPORTANT: Citation
 Using any data or graphics from this map means that you have made use of data published in [1], which you must cite as described in https://arxiv.org/abs/2110.06184.
